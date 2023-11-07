@@ -1,0 +1,202 @@
+/* .container{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;   
+}
+
+.logo{
+    padding-top: 50px;
+    border: 1px solid white;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: arial;
+    font-size: 9pt;
+}
+
+.footer a{
+    background: lightgrey;
+    font-family: arial;
+    color: grey;
+    padding: 5px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    left: -5px;
+}
+
+.footer-left{
+  float: left;
+}
+
+.footer-right{
+    float: right;
+}
+
+.google-logo{
+    width: 300px;
+}
+
+.buttons{
+    margin-bottom:60px ;
+}
+
+button{
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: grey;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 2px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button:hover {
+    color: black;
+    border: 1p solid gray;
+}
+
+.searchbar{
+    background-image: url(Magnifying_glass_icon.png), url(google_microphone.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left, right;
+
+}
+
+
+.navbar a{
+    color: gray;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+}
+ */
+
+ .container {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    padding-top: 50px;
+    border: 1px solid white;
+}
+
+.searchbar {
+    width: 400px;
+    height: 30px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-image: url("Magnifying_glass_icon.png"), url("google_microphone.png");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left, right;
+}
+
+.buttons {
+    margin-bottom: 60px;
+}
+
+.button {
+    background-color: lightgray;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    color: grey;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer{
+    background: lightgrey;
+    font-family: Arial;
+    color: grey;
+    padding: 5px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+.google-logo {
+    width: 300px;
+}
+
+.navbar a {
+    display: inline-block;
+    margin-right: 20px;
+    color: gray;
+    text-decoration: none;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.footertop{
+    position: absolute;
+    bottom: 30px;
+    left: 5px;
+}
